@@ -21,6 +21,8 @@ int main()
 	testDungeon.GenerateNoiseMap(23, 6, 50);
 	testDungeon.DrawNoiseMap();
 	std::cout << std::endl;
+	testDungeon.SmoothDungeon();
+	testDungeon.DrawNoiseMap();
 	std::cin;
 }
 
